@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>tahoe-net</id>
+        <version>0.1.0</version>
+        <authors>Christian Hermann</authors>
+        <owners>Christian Hermann</owners>
+        <licenseUrl>https://raw.githubusercontent.com/bitbeans/tahoe-net/master/LICENSE.md</licenseUrl>
+        <projectUrl>https://github.com/bitbeans/tahoe-net</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Simple class to communicate with the Tahoe-LAFS client REST API.</description>
+        <releaseNotes>*0.1.0
+- added some basics</releaseNotes>
+        <copyright>Copyright (c) 2015 Christian Hermann (bitbeans)</copyright>
+        <language>en-US</language>
+        <tags>tahoe</tags>
+    </metadata>
+    <files>
+        <file src="tahoe-net\bin\Release\tahoe-net.dll" target="lib\net\tahoe-net.dll" />
+    </files>
+</package>
