@@ -209,7 +209,7 @@ namespace Tahoe
 		/// </summary>
 		/// <param name="url">FQDN of the tahoe endpoint.</param>
 		/// <returns>The name of the created directory.</returns>
-		private static string CreateDir(string url = DefaultTahoeUrl)
+		public static string CreateDir(string url = DefaultTahoeUrl)
 		{
 			var alias = string.Empty;
 			try
