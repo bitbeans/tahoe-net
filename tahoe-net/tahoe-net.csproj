@@ -48,6 +48,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Models\CheckResponse.cs" />
+    <Compile Include="Models\CheckResponseResult.cs" />
     <Compile Include="TahoeCommunication.cs" />
     <Compile Include="Models\DirResponse.cs" />
     <Compile Include="Models\FileNode.cs" />
