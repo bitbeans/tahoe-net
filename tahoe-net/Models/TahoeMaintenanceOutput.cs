@@ -3,7 +3,7 @@
 	/// <summary>
 	///     The output/response format for the tahoe-lafs gateway.
 	/// </summary>
-	public enum ThaoeMaintenanceOutput
+	public enum TahoeMaintenanceOutput
 	{
 		/// <summary>
 		///     Output as JSON.

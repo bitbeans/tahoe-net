@@ -13,18 +13,12 @@ namespace Tahoe
 	public static class TahoeCommunication
 	{
 		/// <summary>
-		///     The default tahoe endpoint after installation.
-		/// </summary>
-		public const string DefaultTahoeUrl = "http://127.0.0.1:3456";
-
-
-		/// <summary>
 		///     Get informations from a directory.
 		/// </summary>
 		/// <param name="dir">The directory to request from.</param>
 		/// <param name="url">FQDN of the tahoe endpoint.</param>
 		/// <returns>A dynamic list.</returns>
-		private static List<dynamic> RequestDir(string dir, string url = DefaultTahoeUrl)
+		private static List<dynamic> RequestDir(string dir, string url = TahoeDefaults.DefaultTahoeUrl)
 		{
 			List<dynamic> listResponse;
 			try
@@ -59,7 +53,7 @@ namespace Tahoe
 		/// <param name="dir">The directory to request from.</param>
 		/// <param name="url">FQDN of the tahoe endpoint.</param>
 		/// <returns>A DirResponse object.</returns>
-		public static DirResponse GetDir(string dir, string url = DefaultTahoeUrl)
+		public static DirResponse GetDir(string dir, string url = TahoeDefaults.DefaultTahoeUrl)
 		{
 			var dirResponse = new DirResponse();
 			try
@@ -119,7 +113,7 @@ namespace Tahoe
 		/// <param name="dir">The directory to request from.</param>
 		/// <param name="url">FQDN of the tahoe endpoint.</param>
 		/// <returns>A list of SimpleFile.</returns>
-		public static List<SimpleFile> GetFileList(string dir, string url = DefaultTahoeUrl)
+		public static List<SimpleFile> GetFileList(string dir, string url = TahoeDefaults.DefaultTahoeUrl)
 		{
 			var securedFiles = new List<SimpleFile>();
 			try
@@ -173,7 +167,7 @@ namespace Tahoe
 		/// <param name="dir">The directory to request from.</param>
 		/// <param name="url">FQDN of the tahoe endpoint.</param>
 		/// <returns>The used space.</returns>
-		public static long GetUsedSpace(string dir, string url = DefaultTahoeUrl)
+		public static long GetUsedSpace(string dir, string url = TahoeDefaults.DefaultTahoeUrl)
 		{
 			long used = 0;
 			try
@@ -209,7 +203,7 @@ namespace Tahoe
 		/// </summary>
 		/// <param name="url">FQDN of the tahoe endpoint.</param>
 		/// <returns>The name of the created directory.</returns>
-		public static string CreateDir(string url = DefaultTahoeUrl)
+		public static string CreateDir(string url = TahoeDefaults.DefaultTahoeUrl)
 		{
 			var alias = string.Empty;
 			try
