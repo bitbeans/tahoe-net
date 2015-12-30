@@ -3,7 +3,7 @@ using Newtonsoft.Json;
 
 namespace Tahoe.Models
 {
-	public class Stats
+	public class DeepCheckStats
 	{
 		[JsonProperty("count-immutable-files")]
 		public int CountImmutableFiles { get; set; }

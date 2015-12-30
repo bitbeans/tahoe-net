@@ -1,4 +1,4 @@
-# tahoe-net [![NuGet Version](https://img.shields.io/nuget/v/tahoe-net.svg?style=flat-square)](https://www.nuget.org/packages/tahoe-net/) [![License](http://img.shields.io/badge/license-MIT-green.svg?style=flat-square)](https://github.com/bitbeans/StreamCryptor/blob/master/LICENSE.md)
+# tahoe-net [![NuGet Version](https://img.shields.io/nuget/v/tahoe-net.svg?style=flat-square)](https://www.nuget.org/packages/tahoe-net/) [![License](http://img.shields.io/badge/license-MIT-green.svg?style=flat-square)](https://github.com/bitbeans/tahoe-net/blob/master/LICENSE.md)
 
 Simple basic communication with a tahoe-lafs client over the available REST API.
 

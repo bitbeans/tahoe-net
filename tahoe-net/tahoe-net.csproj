@@ -51,7 +51,8 @@
     <Compile Include="Models\CheckResponse.cs" />
     <Compile Include="Models\CheckResponseResult.cs" />
     <Compile Include="Models\DeepCheckResponse.cs" />
-    <Compile Include="Models\Stats.cs" />
+    <Compile Include="Models\DeepCheckStats.cs" />
+    <Compile Include="Models\Gather.cs" />
     <Compile Include="Models\TahoeMaintenanceOutput.cs" />
     <Compile Include="TahoeCommunication.cs" />
     <Compile Include="Models\DirResponse.cs" />
@@ -60,6 +61,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TahoeDefaults.cs" />
     <Compile Include="TahoeMaintenance.cs" />
+    <Compile Include="TahoeGather.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

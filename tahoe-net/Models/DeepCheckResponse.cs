@@ -18,7 +18,7 @@ namespace Tahoe.Models
 		public List<object> ListUnhealthyFiles { get; set; }
 
 		[JsonProperty("stats")]
-		public Stats Stats { get; set; }
+		public DeepCheckStats Stats { get; set; }
 
 		[JsonProperty("count-corrupt-shares-post-repair")]
 		public int CountCorruptSharesPostRepair { get; set; }

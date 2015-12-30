@@ -136,7 +136,6 @@ namespace Tahoe
 				request.AddParameter("release-after-complete", releaseHandle);
 				request.AddUrlSegment("u", handle);
 
-
 				if (taoeMaintenanceOutput == TahoeMaintenanceOutput.Json)
 				{
 					request.AddParameter("output", "json");
