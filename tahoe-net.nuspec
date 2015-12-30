@@ -2,15 +2,14 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
     <metadata>
         <id>tahoe-net</id>
-        <version>0.1.0</version>
+        <version>0.2.0</version>
         <authors>Christian Hermann</authors>
         <owners>Christian Hermann</owners>
         <licenseUrl>https://raw.githubusercontent.com/bitbeans/tahoe-net/master/LICENSE.md</licenseUrl>
         <projectUrl>https://github.com/bitbeans/tahoe-net</projectUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
-        <description>Simple class to communicate with the Tahoe-LAFS client REST API.</description>
-        <releaseNotes>*0.1.0
-- added some basics</releaseNotes>
+        <description>Simple library to communicate with the Tahoe-LAFS client REST API.</description>
+        <releaseNotes>see GitHub project</releaseNotes>
         <copyright>Copyright (c) 2015 Christian Hermann (bitbeans)</copyright>
         <language>en-US</language>
         <tags>tahoe</tags>
